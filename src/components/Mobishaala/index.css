@@ -1,0 +1,262 @@
+
+.container {
+    background-image: url("https://res.cloudinary.com/dw7b7yukf/image/upload/v1710477867/opq0grrkyvuxwepbbju6.png");
+    background-size: cover;
+    min-height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+    .container{
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+.container-1 {
+    font-family: "Calibri";
+    font-size: 10px;
+    min-height: 610px;
+    min-width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+@media screen and (min-width: 768px) {
+    .container-1 {
+        flex-direction: row;
+        width: 85%;
+        justify-content: center;
+    }
+}
+
+.container1-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    .container1-details {
+        align-items: center;
+        width: 100%;    
+    }
+}
+
+
+.heading1 {
+    color: white;
+    text-align: center;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.download-button {
+    color: white;
+    background-color: #c30010;
+    border: 0px;
+    border-radius: 4px;
+    height: 32px;
+    width: 130px;
+    margin: 8px;
+    font-family: "Calibri";
+}
+
+.get-started-button {
+    color: white;
+    background-color: #c30010;
+    border: 0px;
+    border-radius: 4px;
+    height: 32px;
+    width: 100px;
+    margin: 8px;
+    font-family: "Calibri";
+
+}
+
+.buy-button {
+    color: white;
+    background-color: #c30010;
+    border: 0px;
+    border-radius: 4px;
+    height: 32px;
+    width: 60px;
+    margin: 8px;
+    font-family: "Calibri";
+}
+
+@media screen and (min-width : 768px) {
+    .buy-button{
+        display: none;
+    }
+}
+
+.buy-btn {
+    color: white;
+    background-color: #c30010;
+    border: 0px;
+    border-radius: 4px;
+    height: 32px;
+    width: 60px;
+    margin: 8px;
+    font-family: "Calibri";    
+}
+
+@media screen and (max-width: 768px) {
+    .buy-btn {
+        display: none;
+    }
+}
+
+.para {
+    color: white;
+    margin: 8px;
+    font-size: 16px;
+    font-family: "Calibri";
+}
+
+.whatsapp {
+    height: 15px;
+    background-color: transparent;
+    width: 18px;
+}
+.w-btn {
+    color: white;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.talk-to-us-button {
+    background-color: green;
+    border: 0px;
+    border-radius: 4px;
+    margin: 8px;
+    font-family: "Calibri";
+    margin-top: 15px;
+    
+}
+
+.whatsapp-btn {
+    background-color: green;
+    width: 130px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+
+}
+
+.container-3 {
+    font-family: "Calibri";
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 10px;
+    min-height: 500px;
+    min-width: 250px;
+    background-color: #c30010;
+    color: white;
+    padding: 18px;
+}
+
+@media screen and (min-width: 768px) {
+    .container-3 {
+        display: none;
+    }
+}
+
+.heading2 {
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.color-change {
+    color: yellow;
+}
+
+.color-change2 {
+    font-weight: bold;
+}
+.paragraph {
+    font-size: 21px;
+    font-weight: 700;
+}
+.paragraph2 {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.container-4 {
+    padding-bottom: 12px;
+}
+
+
+.main-heading {
+    color: white;
+    font-size: 36px;
+    font-family: "Calibri";
+    font-weight: bolder;
+    font-style: italic;
+}
+
+@media screen and (max-width: 767px) {
+    .main-heading{
+        display: none;
+    }
+}
+
+.container-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+    .container-5 {
+        display: none;
+    }
+}
+
+.y-video {
+    margin: 5px;
+}
+
+@media screen and (min-width: 768px) {
+    .y-video {
+        display: none;
+    }
+}
+
+.points {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+@media screen and (max-width: 767px) {
+    .points {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {   
+    .last-container {
+        width: 100%;
+    }
+}
+
